@@ -1,0 +1,76 @@
+body {
+    margin: auto;
+    font-size: 0.9em;
+    font-family: Georgia;
+    height: 100%;
+    width: 100%;
+}
+ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+li {
+    list-style-type: none;
+}
+.nonradio {
+    margin: 5px 0 0 28px;
+}
+
+#inputArea {
+    background: #fff;
+    border: 1px solid #666;
+    border-top: 0px;
+    padding: 3px; 
+    padding-left: 120px;
+    margin: 0px auto;
+    width: 300px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputForm {
+    margin-left: 2px;
+    font-family: Consolas, Georgia;
+}
+#mainInput {
+    width: 60px;
+}
+
+.button {
+    margin: 2px auto;
+}
+.radio {
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+.panel {
+    background: #fff;
+    border: 1px solid #666;
+    padding: 5px;
+    display: none;
+    margin: -1px auto;
+    width: 305px;
+    font-family: Consolas, Georgia;
+    font-size: 12px;
+}
+
+#boxiesAmount {
+    margin-left: 5px;
+    width: 30px;
+}
+#boxiesButton {
+    margin-left: 4px;
+}
+#boxies {
+    margin: 8px 20px 8px 28px;
+}
+.boxie {
+    border: 1px solid #000;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}

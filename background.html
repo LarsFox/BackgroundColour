@@ -1,0 +1,43 @@
+<html>
+<!DOCTYPE HTML PUBLIC  '-//W3C//DTD HTML 4.01//EN' 'www.w3.org/TR/html4/strict.dtd'>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <title>Colour your background</title>
+  <link type="text/css" rel="stylesheet" href="style.css" media="all">
+</head>
+
+<body>
+  <div id='inputArea'>
+    #<input id='mainInput' class='inputForm' title='colour hex code here' name='textfield' type='text' placeholder='ffffff' autofocus=true maxlength=6>
+    <button id='goButton' class='button'>Go</button>
+    <button id='helpButton' class='button'>Help</button>
+    <button id='extrasButton' class='button'>Extras</button>
+  </div>
+  <div id='helpPanel' class='panel'>
+    Use 3 or 6 hex-numbers <b>(0-F)</b>.<br>
+    Input is case-insensitive, e.g.<br>
+    <b>cf9</b> = <b>CF9</b> = <b>cF9</b> = <b>ccff99</b> = <b>ccFf99</b> = <b>CCFF99</b>.<br><br>
+    <b>#</b> is already written.<br><br>
+    If an error occurs the background will become white, and the Help button will change its font colour.<br><br>
+    &#0169; Lars Fox 2014
+  </div>
+  <div id='extrasPanel' class='panel'>
+    Extras:
+    <ul>
+      <li><input value='MouseRandomColour' name='extrasRadios' class='radio' type='radio'>Mouse move random colour (click stops).</li>
+      <li><input value='GoRandomColour' name='extrasRadios' class='radio' type='radio'><b>Go</b> button random colour.</li>
+      <li><input value='PreviousColours' name='extrasRadios' class='radio' type='radio' checked=true>Previous colours.
+      <li><input value='none' name='extrasRadios' class='radio' type='radio' checked=true>Everything off.</li>
+      </li>
+      <li class='nonradio'>Memory size:<input id='boxiesAmount' class='inputForm' title='0-999' name='textfield' value=69 type='text' placeholder='100' maxlength=3><button id='boxiesButton' class='button'>Go</button></li>
+      <div id='boxies'></div>
+    </ul>
+  </div>
+</body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!-- CHANGE SCRIPTS HERE -->
+<!--<script type="text/javascript" src='background.js'></script>
+<script type="text/javascript" src='backgroundjQuery.js'></script>-->
+<script type="text/javascript" src='backgroundjQueryOnly.js'></script>
+</html>
